@@ -665,12 +665,12 @@ def plot_model(output_path):
     return 0
 
 if __name__ == "__main__":
-    #plot_model("/Users/sveta/attn_classifier/")
-    #generate_training_graph("/Users/sveta/attn_classifier/example_case_10pct_low_signal_chk_pt/train_output/grads.pkl", '/Users/sveta/attn_classifier/example_case_10pct_low_signal_chk_pt/train_output/grad_anim/')
-    make_training_anim('/Users/sveta/attn_classifier/example_case_10pct_low_signal_chk_pt/train_output/grad_anim/')
-    #plot_scores_file('/Users/sveta/attn_classifier/example_case_10pct_low_signal_chk_pt/train_output/scores.pkl')
-    #plot_loss_file('/Users/sveta/attn_classifier/example_case_50pct_low_signal_good_chk_pt/train_output/loss.pkl')
-    #plot_attention_maps_file("/Users/sveta/attn_classifier/example_case_10pct_low_signal_chk_pt/train_output/maps.pkl", 999, 15)
-    #plot_iteration_graph_from_file("/Users/sveta/attn_classifier/example_case_50pct_low_signal_good_chk_pt/train_output/grads.pkl", 0,'/Users/sveta/attn_classifier/example_case_50pct_low_signal_good_chk_pt/')
-    #plot_param_grads_file("/Users/sveta/attn_classifier/example_case_10pct_low_signal_chk_pt/train_output/grads.pkl",
+    #plot_model("/attn_classifier/")
+    #generate_training_graph("/attn_classifier/example_case_10pct_low_signal_chk_pt/train_output/grads.pkl", '/attn_classifier/example_case_10pct_low_signal_chk_pt/train_output/grad_anim/')
+    make_training_anim('/attn_classifier/example_case_10pct_low_signal_chk_pt/train_output/grad_anim/')
+    #plot_scores_file('/attn_classifier/example_case_10pct_low_signal_chk_pt/train_output/scores.pkl')
+    #plot_loss_file('/attn_classifier/example_case_50pct_low_signal_good_chk_pt/train_output/loss.pkl')
+    #plot_attention_maps_file("/attn_classifier/example_case_10pct_low_signal_chk_pt/train_output/maps.pkl", 999, 15)
+    #plot_iteration_graph_from_file("/attn_classifier/example_case_50pct_low_signal_good_chk_pt/train_output/grads.pkl", 0,'/attn_classifier/example_case_50pct_low_signal_good_chk_pt/')
+    #plot_param_grads_file("/attn_classifier/example_case_10pct_low_signal_chk_pt/train_output/grads.pkl",
     #                      "net.transformer.layers.2.attn_layer.to_qvk.weight")

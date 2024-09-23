@@ -12,7 +12,7 @@ import os
 from datasets import FakeDataset
 from plotting_functions import *
 import model_classes as mc
-CHECKPOINT_PATH = "/Users/sveta/attn_classifier/chk_pt_1/"
+CHECKPOINT_PATH = "/attn_classifier/chk_pt_1/"
 os.environ["TORCH_HOME"] = CHECKPOINT_PATH
 device = torch.device("cpu")
 
